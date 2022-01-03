@@ -35,3 +35,10 @@ section{
 #name-style{
     font-size: 35px;
 }
+.second-section{
+    display: flex;
+    margin-bottom: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
