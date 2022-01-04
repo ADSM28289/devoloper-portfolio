@@ -51,7 +51,6 @@ h1{
     margin-right: 5%;
     margin-bottom: 15%;
     padding-left: 20px;
-   
 }
 .tird-section{
     background-image: url(images/exp-bg.png);
@@ -59,16 +58,17 @@ h1{
     background-position: left;
    
 }
-#border{
-    border-image: linear-gradient(blue, cyan);
+#box{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 251, 0), orange);
     border-image-slice: 1;
-    
+    border-radius: 7px;
 }
-#bordered{
-    border-image: linear-gradient(blue, cyan);
+#boxborder{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(0, 4, 255), rgb(8, 247, 255));
     border-image-slice: 1;
-    
-}
 footer{
     text-align: center;
 }
